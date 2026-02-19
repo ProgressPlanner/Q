@@ -1,9 +1,7 @@
-<!-- wp:template-part {"slug":"header"} /-->
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"inherit":true}} -->
-<div class="wp-block-group"><div class="wp-block-group__inner-container">
-
-<!-- wp:heading {"level":1,"fontSize":"enormous"} -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:heading {"level":1} -->
 <h1>404</h1>
 <!-- /wp:heading -->
 
@@ -11,7 +9,7 @@
 <p>We could not find the content you requested.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:search {"label":"Search","buttonText":"Search"} /-->
-
-</div>
+<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","buttonText":"Search","buttonUseIcon":true} /--></main>
 <!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
